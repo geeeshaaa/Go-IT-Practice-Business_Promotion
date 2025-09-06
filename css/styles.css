@@ -1,0 +1,155 @@
+/* https://github.com/kkseni/blended-123-3-4 */
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ЗМІННІ ДЛЯ ШРИФТІВ */
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+/* ПРИКЛАД ВИКОРИСТАННЯ */
+body {
+  font-family: var(--font-inter);
+}
+
+h1 {
+  font-family: var(--font-montserrat);
+}
+
+p {
+  font-family: var(--font-poppins);
+}
+
+button {
+  font-family: var(--font-roboto);
+}
+
+/* ---------------------------------------------- */
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* --------------- Header ----------------------- */
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 237px;
+}
+.logo-img {
+}
+.logo-text {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+.nav {
+  display: flex;
+  margin-right: 73px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-item {
+    padding: 26px 0;
+    
+}
+.nav-link {
+    padding: 26px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.product {
+  font-weight: 600;
+}
+.auth {
+  display: flex;
+  gap: 73px;
+}
+.auth-item {
+}
+.btn {
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-secondary {
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+}
+.btn-primary {
+    background: #02897a;
+    color: #fff;
+}
+.test{
+
+}
