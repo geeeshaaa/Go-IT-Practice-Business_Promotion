@@ -84,6 +84,7 @@ button {
 /* ---------------------------------------------- */
 .container {
   min-width: 411px;
+  max-width: 412px;
   margin: 0 auto;
 }
 
@@ -220,36 +221,6 @@ button {
   fill: #02897a;
   margin-right: 8.8px;
 }
-
-/* ------------------- features --------------------- */
-
-.features-container {
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-}
-.features-section .section-title {
-  font-weight: 700;
-  font-size: 32px;
-  text-align: center;
-  color: #22343d;
-  margin-bottom: 50px;
-}
-.features-icon {
-  margin: 0 auto 24px auto;
-}
-.features-title {
-  margin-bottom: 8px;
-}
-
-.features-text {
-  max-width: 226px;
-  margin: 0 auto 32px auto;
-}
-.features-cta {
-  margin-bottom: 100px;
-}
 /* ------------------ section base ----------------- */
 .section-container {
   padding: 0 31px;
@@ -279,6 +250,36 @@ button {
   line-height: 1.62;
   color: #22343d;
   margin-bottom: 12px;
+}
+
+/* ------------------- features --------------------- */
+
+.features-container {
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.features-section .section-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.features-icon {
+  margin: 0 auto 24px auto;
+}
+.features-title {
+  margin-bottom: 8px;
+}
+
+.features-text {
+  max-width: 226px;
+  margin: 0 auto 32px auto;
+}
+.features-cta {
+  margin-bottom: 100px;
 }
 /* ------------------- management ------------------ */
 
