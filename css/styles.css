@@ -88,13 +88,13 @@ button {
   margin: 0 auto;
 }
 
-@media (min-width: 1150px) {
+/* @media (min-width: 1150px) {
   .container {
     min-width: 1150px;
     padding: 0 20px;
     margin: 0 auto;
   }
-}
+} */
 /* --------------- Header ----------------------- */
 .header {
 }
